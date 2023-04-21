@@ -9,4 +9,8 @@ mssg_int = [ord(i) for i in mssg_input]
 ciphertext = ''
 
 # using the steps for the vigenère cipher, calculate the numerical values of the cipher, and convert it back to letters
+for i in range(len(mssg_int)):
+    value = (mssg_int[i] + key_as_int[i % key_length]) % 26
+    ciphertext += chr(value + 65)
+    
 # print the output/ciphertext
