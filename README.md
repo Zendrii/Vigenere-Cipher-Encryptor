@@ -1,4 +1,11 @@
 # Vigenere Cipher Encryptor
 Encryptor which uses the Vigenère cipher. This also adds another step to said cipher which I'm going to explain later.
 ## How it works
-This program uses the Vigenère cipher. To use said cipher, substitute each letter with another, using your key to find the intersection of the correct row and column. For example, if it messages HELLO, you encrypt the first letter H using row H. Then you use the first letter of your key to choose the correct column.(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.futurelearn.com%2Finfo%2Fcourses%2Fencryption-and-cryptography%2F0%2Fsteps%2F64716&psig=AOvVaw17qyqWvoA8ceRqPKv0ZCKj&ust=1682159564049000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJCrorniuv4CFQAAAAAdAAAAABAE)
+This program uses the Vigenère cipher. To use said cipher, substitute each letter with another, using your key to find the intersection of the correct row and column. For example, if it messages HELLO, you encrypt the first letter H using row H. Then you use the first letter of your key to choose the correct column. In this program however, we assign a letter with a number from 1 to 26. Then, to encrypt, write your message on one row (letters 0 – 25), and repeatedly write the keyword below it, adding each column, taking the result mod 26. These resultant numbers are the ciphertext. Here's an example:
+```
+Message: LETSGOTOTHESHOW     11 4 19 18 6 14 19 14 19  7 4 18  7 14 22
+Key: TICKET                  19 8  2 10 4 19 19  8  2 10 4 19 19  8  2
+Add:                        30 12 21 28 10 33 38 22 21 17 8 37 26 22 24
+Mod:                          4 12 21 2 10 7 12 22 21 17 8 11 0 22 24
+Ciphertext:                        E M V C K H M W V R I L A W Y
+```
