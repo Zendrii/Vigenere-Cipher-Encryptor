@@ -1,0 +1,4 @@
+# ask the user for input
+# correspond each letter in the alphabet to the index
+# using the steps for the vigenère cipher, calculate the numerical values of the cipher, and convert it back to letters
+# print the output/ciphertext
