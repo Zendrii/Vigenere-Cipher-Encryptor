@@ -10,3 +10,5 @@ Mod:                          4 12 21 2 10 7 12 22 21 17 8 11 0 22 24
 Ciphertext:                        E M V C K H M W V R I L A W Y
 ```
 Here is the visualization of the cipher: (https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/1.9Vignere1-1-768x512.png)
+## How to use (FOLLOW THE INSTRUCTIONS OF THE PROMPTS CAREFULLY)
+When you see the prompt `What is your message? `, type in your message. When you see the prompt `What is the key to be used? `, type in the key you are going to use. With those values set, just wait for the program to work and you will have your encrypted messsage.
