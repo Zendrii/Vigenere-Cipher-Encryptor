@@ -1,3 +1,5 @@
+print('\033[92m='*158)
+
 # ask the user for input
 mssg_input = input('\nWhat is your message? (All capital letters, no spaces) ')
 key_input = input('What is the key to be used? (All capital letters) ')
@@ -14,4 +16,9 @@ for i in range(len(mssg_int)):
     ciphertext += chr(value + 65)
 
 # print the output/ciphertext
+print('\nEncrypting . . . . .')
+import time
+time.sleep(1)
 print('\n',ciphertext, '\n')
+
+print('\033[92m='*158)
