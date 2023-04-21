@@ -12,5 +12,6 @@ ciphertext = ''
 for i in range(len(mssg_int)):
     value = (mssg_int[i] + key_as_int[i % key_length]) % 26
     ciphertext += chr(value + 65)
-    
+
 # print the output/ciphertext
+print('\n',ciphertext, '\n')
