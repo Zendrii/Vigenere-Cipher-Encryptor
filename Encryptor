@@ -4,5 +4,9 @@ key_input = input('What is the key to be used? (All capital letters) ')
 key_length = len(key_input)
 
 # correspond each letter in the alphabet to the index
+key_as_int = [ord(i) for i in key_input]
+mssg_int = [ord(i) for i in mssg_input]
+ciphertext = ''
+
 # using the steps for the vigenère cipher, calculate the numerical values of the cipher, and convert it back to letters
 # print the output/ciphertext
