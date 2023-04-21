@@ -9,4 +9,4 @@ Add:                        30 12 21 28 10 33 38 22 21 17 8 37 26 22 24
 Mod:                          4 12 21 2 10 7 12 22 21 17 8 11 0 22 24
 Ciphertext:                        E M V C K H M W V R I L A W Y
 ```
-> Here is the visualization of the cipher: (https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/1.9Vignere1-1-768x512.png)
+Here is the visualization of the cipher: (https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/1.9Vignere1-1-768x512.png)
